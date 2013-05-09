@@ -3,6 +3,8 @@ assignment1/twitterstream.py
 *twitterstream.py
 *output.txt
 
+*.pyc
+
 # OS generated files #
 ######################
 .DS_Store

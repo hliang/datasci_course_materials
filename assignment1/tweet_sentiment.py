@@ -39,7 +39,7 @@ def sum_sent_score(dict_of_sent, list_of_tweet):
         for word in t.split():
             if word.encode('utf-8').lower() in dict_of_sent.keys():
                 # print word
-                thisscore += dict_of_sent[word]
+                thisscore += dict_of_sent[word.lower()]
         scores.append(thisscore)
     return scores
 

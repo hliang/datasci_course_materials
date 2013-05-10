@@ -4,6 +4,7 @@ assignment1/twitterstream.py
 *output.txt
 
 *.pyc
+*.swp
 
 # OS generated files #
 ######################
